@@ -1,0 +1,22 @@
+{
+  "name": "ai-career-guidance-resume-analyzer",
+  "version": "1.0.0",
+  "description": "AI-Powered Career Guidance & Resume Analyzer",
+  "scripts": {
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\""
+  },
+  "keywords": [
+    "career",
+    "resume",
+    "ai",
+    "guidance",
+    "job",
+    "skills"
+  ],
+  "author": "Prajwal HR",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
